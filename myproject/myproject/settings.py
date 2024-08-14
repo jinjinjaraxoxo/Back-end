@@ -130,3 +130,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React 개발 서버 도메인
     "https://your-frontend-domain.com",  # 배포된 프론트엔드 도메인
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
