@@ -1,0 +1,390 @@
+/* 첫화면 */
+.first{
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #ECF5F5;
+}
+
+/* 전체사각형 */
+.box{
+box-sizing: border-box;
+
+position: absolute;
+width: 1075px;
+height: 648px;
+left: 154px;
+top: 143px;
+
+border: 2.5px solid #6B7072;
+border-radius: 40px;
+}
+
+/* 영상재생버튼 */
+.playbtn{
+box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 616px;
+top: 345px;
+
+background: #EB9E9D;
+border: 2.5px solid #6B7072;
+}
+
+/* 영상재생삼각형 */
+.triangle{
+box-sizing: border-box;
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 741px;
+top: 370px;
+
+background: #ECF5F5;
+border: 2.5px solid #6B7072;
+border-radius: 10px;
+transform: rotate(90deg);
+}
+
+/* 영상을 업로드하세요 */
+.upload{
+position: absolute;
+width: 360px;
+height: 45px;
+left: 511px;
+top: 543px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+/* or 40px */
+letter-spacing: 0.01em;
+
+color: #6B7072;
+}
+
+
+/* Line */
+.line{
+position: absolute;
+width: 199px;
+height: 0px;
+left: 373px;
+top: 791px;
+
+border: 2.5px solid #ECF5F5;
+}
+
+/* Line */
+.line2{
+position: absolute;
+width: 199px;
+height: 0px;
+left: 1229px;
+top: 420px;
+
+border: 2.5px solid #ECF5F5;
+transform: rotate(-90deg);
+}
+
+/* 파일선택 선 */
+.choosefile{
+position: absolute;
+width: 99.75px;
+height: 44.5px;
+left: 414.5px;
+top: 789.5px;
+
+border: 2.5px solid #6B7072;
+transform: rotate(89.67deg);
+}
+
+/* 파일선택 화살표 */
+.arrow{
+box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 0px;
+left: 414.5px;
+top: 856px;
+
+border: 2.5px solid #6B7072;
+transform: rotate(90deg);
+}
+
+/* 자막생성 선 */
+.subtitles{
+position: absolute;
+width: 99.75px;
+height: 44.5px;
+left: 1227.5px;
+top: 263.5px;
+
+border: 2.5px solid #6B7072;
+transform: matrix(1, 0.01, 0.01, -1, 0, 0);
+}
+
+/* 자막생성 화살표 */
+.subarrow{
+box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 0px;
+left: 1294.5px;
+top: 263.5px;
+
+border: 2.5px solid #6B7072;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* 원하는 동영상, 음성 파일을 드래그하여 넣으세요! */
+.uploadvideo{
+position: absolute;
+width: 649px;
+height: 41px;
+left: 471px;
+top: 827px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+color: #6B7072;
+}
+
+
+/* 파일선택 버튼 */
+.choosefilebtn{
+position: absolute;
+width: 212px;
+height: 69px;
+left: 479px;
+top: 890px;
+}
+
+
+/* 파일선택 버튼 */
+.choosefilebtn2{
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #EDAE87;
+border: 2.5px solid #6B7072;
+border-radius: 40px;
+}
+
+/* 파일 선택 */
+.choosefile2{
+position: absolute;
+width: 118px;
+height: 41px;
+left: 526px;
+top: 904px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+color: #6B7072;
+}
+
+
+/* 자막제작 버튼 */
+.subbtn{
+box-sizing: border-box;
+
+position: absolute;
+width: 212px;
+height: 69px;
+left: 1278px;
+top: 444px;
+
+background: #A5C2B5;
+border: 2.5px solid #6B7072;
+border-radius: 40px;
+}
+
+/* 자막 제작 */
+.createsub{
+position: absolute;
+width: 118px;
+height: 41px;
+left: 1325px;
+top: 458px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+color: #6B7072;
+}
+
+
+/* 뚝딱이가 영상의 자막을 생성합니다! */
+.tooktak{
+position: absolute;
+width: 179px;
+height: 125px;
+left: 1278px;
+top: 295px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+
+color: #6B7072;
+}
+
+
+/* 번역기록 사다리꼴 */
+.side1{
+box-sizing: border-box;
+
+position: absolute;
+width: 59px;
+height: 255px;
+left: 1818px;
+top: 283px;
+
+border: 2.5px solid #6B7072;
+border-radius: 10px;
+}
+
+/* 번 역 기 록 */
+.recent{
+position: absolute;
+width: 29px;
+height: 188px;
+left: 1833px;
+top: 327px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+
+color: #6B7072;
+}
+
+
+/* 정보수정 사다리꼴 */
+.side2{
+box-sizing: border-box;
+
+position: absolute;
+width: 59px;
+height: 255px;
+left: 1818px;
+top: 543px;
+
+border: 2.5px solid #6B7072;
+border-radius: 10px;
+}
+
+/* 정 보 수 정 */
+.info{
+position: absolute;
+width: 29px;
+height: 188px;
+left: 1833px;
+top: 587px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+
+color: #6B7072;
+}
+
+
+/* 게시판 사다리꼴 */
+.side3{
+box-sizing: border-box;
+
+position: absolute;
+width: 59px;
+height: 255px;
+left: 1818px;
+top: 803px;
+
+border: 2.5px solid #6B7072;
+border-radius: 10px;
+}
+
+/* 게 시 판 */
+.notice{
+position: absolute;
+width: 29px;
+height: 123px;
+left: 1832px;
+top: 869px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+
+color: #6B7072;
+}
+
+
+/* 번역하기 사다리꼴 */
+.side4{
+box-sizing: border-box;
+
+position: absolute;
+width: 59px;
+height: 255px;
+left: 1818px;
+top: 23px;
+
+border: 2.5px solid #6B7072;
+border-radius: 10px;
+}
+
+/* 번 역 하 기 */
+.translate{
+position: absolute;
+width: 29px;
+height: 188px;
+left: 1833px;
+top: 67px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 41px;
+
+color: #6B7072;
+}
